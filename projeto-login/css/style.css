@@ -1,0 +1,112 @@
+/* Configurações gerais */
+
+body {
+    background-color: #a29bfe;
+}
+
+#home {
+    margin: 5em;
+}
+
+.capa, .login {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Configurações da capa */
+
+.capa {
+    background-color: white;
+    height: 500px;
+    -moz-border-radius: 90px 30px;
+    -webkit-border-radius: 90px 30px;
+    border-radius: 90px 30px;
+}
+
+.capa h1 {
+    font-size: 1em;
+    color: #6c5ce7;
+}
+
+.capa p {
+    font-size: 0.8em;
+    color: #a29bfe;
+    display: inline;
+}
+
+.rodape-capa {
+    padding-top: 200px;
+}
+
+/* Configurações do login */
+
+.login {
+    background-color: #6c5ce7;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.login h1 {
+    font-size: 1.5em;
+    margin-top: 100px;
+}
+
+.login a {
+    font-size: 1em;
+    color: #2f3030;
+}
+
+.btn-light:hover {
+    background-color: #a29bfe;
+}
+
+.btn-light a:hover {
+    color: white;
+}
+
+.mensagem {
+    border: 1px solid #8179f4;
+    padding: 15px;
+    background-color: #a29bfe;
+    color: #6c5ce7;
+    font-weight: bolder;
+}
+
+.mensagem a {
+    color: white;
+    font-weight: normal;
+}
+
+/*/ Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+@media (max-width: 576px) { 
+    .login, .capa {
+        margin: 10px;
+    }
+
+    .btn {
+        font-size: 0.8em;
+    }
+
+ }
+
+/*/ Dispositivos médios (tablets com 768px ou mais) */
+@media (max-width: 768px) { 
+   .mensagem {
+    margin: 10px;
+   }
+
+
+}
+
+/*/ Dispositivos large (desktops com 992px ou mais) */
+@media (max-width: 992px) { 
+    .mensagem {
+        margin: 10px;
+       }
+
+ }
+
+/*/ Dispositivos extra large (desktops grandes com 1200px ou mais) */
+@media (min-width: 1200px) { 
+
+ }
